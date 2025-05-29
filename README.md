@@ -15,22 +15,18 @@
 
 ---
 ## 🔐 Security / Offline Mode
--✅ Fully offline and secure
--🧠 No API keys required
--🔌 No internet dependency
--🖥️ All inference happens on your local machine
----
-## 📁 
----
 
-
+- ✅ Fully offline and secure
+- 🧠 No API keys required
+- 🔌 No internet dependency
+- 🖥️ All inference happens on your local machine
 ---
 
 ## ⚙️ How It Works (Execution Flow)
 
 ### 1. User Interface (Streamlit)
 - Run with: `streamlit run app.py`
-- User inputs Python code directly in the text area
+- User uploads Python code directly to sana.ai
 - Code is displayed in the UI
 
 ### 2. Analyze the Code
@@ -83,17 +79,6 @@ def calc():
 calc()
 
 ```
-
-## 🧰 Requirements
-- [Ollama](https://ollama.com) installed and running
-- Mistral model pulled via:
-  ```bash
-  ollama pull mistral
--🚀 Running the Application
--Start the Ollama service (make sure mistral is available).
--Run the Streamlit app:
-```bash
-streamlit run app.py
 
 
 
