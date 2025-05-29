@@ -31,7 +31,7 @@ Here is the code:
 
     try:
         process = subprocess.run(
-            ["ollama", "run", os.getenv("MODEL_NAME", "mistral")],
+            ["ollama", "run", "mistral"],
             input=prompt.encode(),
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
