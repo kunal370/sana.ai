@@ -1,0 +1,5 @@
+sana.ai/
+│
+├── app.py                  ← Main Streamlit UI
+├── ollama_infer.py         ← Code that sends prompt to Ollama LLM
+└── requirements.txt        ← Python dependencies
