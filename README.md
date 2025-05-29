@@ -52,36 +52,8 @@ Streamlit displays the result as markdown:
 
 ## 💡 Example
 
-**Input**:
-  ```bash
+![image](https://github.com/user-attachments/assets/2ad63545-7bea-49da-adbd-30030ac0c567)
 
-def calc():
-    print(x)
+![image](https://github.com/user-attachments/assets/e5dcdc2e-11fe-4804-ac84-87602bd58659)
 
-calc()
-```
-
-**Output**:
-  ```bash
-### Issues
-- Variable `x` is undefined
-- Might cause a NameError
-
-### Fix Suggestions
-- Define variable `x` before using it
-
-### Fixed Code
-```python
-def calc():
-    x = 5
-    print(x)
-
-calc()
-
-```
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/9252059b-6ec2-4269-8630-d598be508c83)
