@@ -14,20 +14,13 @@
 - 🎛️ Simple and interactive UI powered by Streamlit
 
 ---
-
-## 📁 Project Overview
-
-This app allows you to:
-
-1. Input Python code via the Streamlit interface.
-2. The code is passed to a locally running Mistral model via the Ollama CLI.
-3. The AI returns:
-   - A list of bugs/issues
-   - Suggestions to fix them
-   - A corrected version of the code
-
-**⚡️ Everything runs locally – no OpenAI, Gemini, or cloud APIs.**
-
+## 🔐 Security / Offline Mode
+-✅ Fully offline and secure
+-🧠 No API keys required
+-🔌 No internet dependency
+-🖥️ All inference happens on your local machine
+---
+## 📁 
 ---
 
 
@@ -49,25 +42,21 @@ This app allows you to:
   ```bash
   ollama run mistral
   
-Mistral returns:
+**Mistral returns:**
+-A list of issues
+-Fix suggestions
+-Fixed code
 
-A list of issues
-
-Fix suggestions
-
-Fixed code
-
-4. Result Display
+**4. Result Display**
 Streamlit displays the result as markdown:
 
-🔍 Issues
+-🔍 Issues
+-💡 Fix Suggestions
+-✅ Fixed Code in a code block
 
-💡 Fix Suggestions
+## 💡 Example
 
-✅ Fixed Code in a code block
-
-💡 Example
-#Input:
+**Input**:
   ```bash
 
 def calc():
@@ -76,7 +65,7 @@ def calc():
 calc()
 ```
 
-#Output:
+**Output**:
   ```bash
 ### Issues
 - Variable `x` is undefined
@@ -96,43 +85,16 @@ calc()
 ```
 
 ## 🧰 Requirements
-
-- Python 3.x
 - [Ollama](https://ollama.com) installed and running
 - Mistral model pulled via:
   ```bash
   ollama pull mistral
-Install dependencies:
-
-pip install -r requirements.txt
-🚀 Running the Application
-Start the Ollama service (make sure mistral is available).
-
-Run the Streamlit app:
-
+-🚀 Running the Application
+-Start the Ollama service (make sure mistral is available).
+-Run the Streamlit app:
+```bash
 streamlit run app.py
-Open the local Streamlit URL in your browser.
 
-Paste your Python code and click Review Code with AI.
-
-🔐 Security / Offline Mode
-✅ Fully offline and secure
-
-🧠 No API keys required
-
-🔌 No internet dependency
-
-🖥️ All inference happens on your local machine
-
-
-🙌 Acknowledgments
-Mistral AI – for the amazing open-source LLMs
-
-Ollama – for making local inference accessible
-
-Streamlit – for the slick, interactive UI
-
-Happy Debugging with sana.ai! ⚡
 
 
 
