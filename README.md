@@ -48,7 +48,6 @@ This app allows you to:
 - `ollama_infer.py` builds a prompt and runs:
   ```bash
   ollama run mistral
-
   
 Mistral returns:
 
@@ -69,14 +68,16 @@ Streamlit displays the result as markdown:
 
 💡 Example
 #Input:
+  ```bash
 
 def calc():
     print(x)
 
 calc()
+```
 
 #Output:
-
+  ```bash
 ### Issues
 - Variable `x` is undefined
 - Might cause a NameError
@@ -91,11 +92,8 @@ def calc():
     print(x)
 
 calc()
-yaml
-Copy
-Edit
 
----
+```
 
 ## 🧰 Requirements
 
