@@ -39,16 +39,16 @@
   ollama run mistral
   
 **Mistral returns:**
--A list of issues
--Fix suggestions
--Fixed code
+- A list of issues
+- Fix suggestions
+- Fixed code
 
 **4. Result Display**
 Streamlit displays the result as markdown:
 
--🔍 Issues
--💡 Fix Suggestions
--✅ Fixed Code in a code block
+- 🔍 Issues
+- 💡 Fix Suggestions
+- ✅ Fixed Code in a code block
 
 ## 💡 Example
 
