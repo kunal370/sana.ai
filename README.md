@@ -50,7 +50,7 @@ Streamlit displays the result as markdown:
 - 💡 Fix Suggestions
 - ✅ Fixed Code in a code block
 
-## 💡 Example
+## 💡 Demo
 
 ![image](https://github.com/user-attachments/assets/2ad63545-7bea-49da-adbd-30030ac0c567)
 
